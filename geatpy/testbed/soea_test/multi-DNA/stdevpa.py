@@ -14,7 +14,7 @@ yerr1 = [3408, 3408, 3408, 3408, 3408, 3408]
 yerr2 = [2197, 2197, 2197, 2197, 2197, 2197]
 yerr3 = [10.9, 147.9, 345.5, 728.1, 1733.3, 2381.5]
 
-# 绘图部分哈哈
+# 绘图部分 
 # 标记样式常用的值有（./,/o/v/^/s/*/D/d/x/</>/h/H/1/2/3/4/_/|）https://www.jianshu.com/p/b992c1279c73，参考
 plt.errorbar(x, y, yerr, fmt='k-o', lw=2, ecolor='k', elinewidth=1, ms=7, capsize=3)
 plt.errorbar(x, y1, yerr1, fmt='k-x', lw=2, ecolor='r', elinewidth=1, ms=7,
