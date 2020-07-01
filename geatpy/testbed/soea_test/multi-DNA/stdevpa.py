@@ -1,3 +1,4 @@
+# 用来主牌标准差之类的脚本
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 
